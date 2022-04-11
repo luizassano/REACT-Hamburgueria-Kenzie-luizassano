@@ -1,0 +1,43 @@
+.App {
+  text-align: center;
+
+}
+
+@media screen and (min-width: 400px) {
+  .products-render {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .cart-render {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .main {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+}
+@media screen and (min-width: 1024px) {
+  .main {
+    flex-direction: row;
+  }
+  .cart-render{
+    margin-top: 30px;
+
+    align-items: flex-start;
+  }
+
+}
+
+@media screen and (min-width: 1600px) {
+  .products-render {
+    width: 970px;
+  }
+  .cart-render{
+    margin-left: 60px;
+  }
+ 
+}
